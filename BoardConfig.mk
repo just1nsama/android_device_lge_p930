@@ -7,6 +7,8 @@ TARGET_BOOTLOADER_BOARD_NAME := p930
 TARGET_OTA_ASSERT_DEVICE := p930
 
 # Try to build the kernel
+#TARGET_KERNEL_SOURCE := kernel/lge/iproj
+#TARGET_KERNEL_CONFIG := sama_p930_defconfig
 TARGET_KERNEL_CONFIG := cyanogenmod_p930_defconfig
 # Keep this as a fallback
 TARGET_PREBUILT_KERNEL := device/lge/p930/kernel
